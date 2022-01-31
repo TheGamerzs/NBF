@@ -1,0 +1,14 @@
+{
+	"name": "native-brute",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"start": "node dist/index",
+		"build": "tsc && npm prune --production",
+		"dev": "devScript"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.13",
+		"ts-devscript": "^3.0.6"
+	}
+}
