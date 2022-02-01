@@ -23,7 +23,7 @@ export function saveWordsUsedInNatives() {
 			if (
 				words[j] !== "" &&
 				nativeWords.indexOf(words[j]) === -1 &&
-				words[j].startsWith("0x")
+				!words[j].startsWith("0x")
 			) {
 				nativeWords.push(words[j]);
 			}
